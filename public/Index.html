@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil - Infotech Solutions</title>
+        <script src="script/newsletter.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="Index.html"><img src="Images/logo.png" alt="Logo"></a>
+                    <ul class="nav-links">
+                        <li><a href="Index.html">Accueil</a></li>
+                        <li><a href="About.html">À propos</a></li>
+                        <li class="dropdown">
+                            <a href="Services.html">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html#service_1">Conception de sites web</a></li>
+                                <li><a href="services.html#service_2">Conception d'applications mobiles</a></li>
+                                <li><a href="services.html#service_3">Développement de logiciels</a></li>
+                                <li><a href="services.html#service_4">Cybersécurité</a></li>
+                                <li><a href="services.html#service_5">Réseau informatique</a></li>
+                                <li><a href="services.html#service_6">Maintenance informatique</a></li>
+                                <li><a href="services.html#service_7">Conseil et formation</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                    </ul>
+
+                    <ul class="nav-link">
+                        <!-- Facebook -->
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#1877F2;">
+                                    <path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <!-- Twitter -->
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#1DA1F2;">
+                                    <path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461 c-2.282,0-4.402-0.661-6.186-1.809c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721 c-1.771-0.037-3.255-1.197-3.767-2.793c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137 c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787 c0-0.748,0.199-1.434,0.548-2.032c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923 c0-2.22,1.796-4.028,4.028-4.028c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973 c-0.299,0.935-0.936,1.721-1.771,2.22c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <!-- Instagram -->
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#C13584;">
+                                    <path d="M12,2c2.761,0,3.902,0.011,5.27,0.076c1.304,0.061,2.464,0.271,3.372,0.576c0.922,0.311,1.704,0.729,2.451,1.477 c0.748,0.747,1.165,1.528,1.477,2.451c0.305,0.908,0.515,2.068,0.576,3.372C21.989,8.098,22,9.239,22,12s-0.011,3.902-0.076,5.27 c-0.061,1.304-0.271,2.464-0.576,3.372c-0.311,0.922-0.729,1.704-1.477,2.451c-0.747,0.748-1.528,1.165-2.451,1.477 c-0.908,0.305-2.068,0.515-3.372,0.576C15.902,21.989,14.761,22,12,22s-3.902-0.011-5.27-0.076c-1.304-0.061-2.464-0.271-3.372-0.576 c-0.922-0.311-1.704-0.729-2.451-1.477c-0.748-0.747-1.165-1.528-1.477-2.451c-0.305-0.908-0.515-2.068-0.576-3.372 C2.011,15.902,2,14.761,2,12s0.011-3.902,0.076-5.27c0.061-1.304,0.271-2.464,0.576-3.372c0.311-0.922,0.729-1.704,1.477-2.451 C4.182,2.182,4.963,1.765,5.885,1.453C6.793,1.148,7.953,0.939,9.257,0.878C10.625,0.812,11.766,0.801,12,0.801z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="Images/hero.jpg" alt="Slide 1">
+                    <img src="Images/hero1.jpg" alt="Slide 2">
+                    <img src="Images/hero2.jpg" alt="Slide 3">
+                    <img src="Images/hero3.jpg" alt="Slide 4">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Idées innovantes en action</h1>
+                <p>Découvrez nos solutions technologiques adaptées à vos besoins.</p>
+                <a href="Services.html" class="cta-button">Découvrir nos services</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="primary">
+            <h1>À propos de nous</h1>
+            <div class="content-container">
+                <div class="content">
+                    <img src="Images/historique.jpg" alt="Histoire">
+                    <div class="text-content">
+                        <h2>Notre histoire</h2>
+                        <p>
+                            Fondée en 2023, Infotech Solutions est née de la volonté d'apporter des solutions technologiques modernes, accessibles et efficaces. 
+                            L'objectif initial était de transformer la manière dont les entreprises, les écoles et les particuliers perçoivent et utilisent la technologie au quotidien. 
+                            En l'espace de quelques mois, nous avons su établir une relation de confiance avec nos premiers clients, grâce à un travail acharné et une écoute attentive de leurs besoins. 
+                        </p>
+                        <br>
+                        <a href="About.html#historique" class="cta-button">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="text-content">
+                        <h2>Notre équipe</h2>
+                            <p>
+                                Chez Infotech Solutions, notre équipe est composée de professionnels passionnés et talentueux, unis par une vision commune : transformer la technologie en une force motrice pour le progrès. 
+                                Nos membres possèdent des compétences variées, couvrant des domaines tels que le développement web, la cybersécurité, la gestion de réseaux, le développement d’applications mobiles et bien plus encore. 
+                                Cette diversité nous permet de fournir des solutions complètes et sur mesure à nos clients. 
+                                Chaque membre de notre équipe est animé par une volonté constante de repousser les limites et de trouver des solutions novatrices pour répondre aux défis technologiques les plus complexes. 
+                            </p>
+                            <br>
+                        <a href="About.html#equipe" class="cta-button">En savoir plus</a>
+                    </div>
+                    <img src="Images/equipe.jpeg" alt="Notre équipe">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="secondary" id="services">
+            <h1>Nos Services</h1>
+            <div class="service-cards">
+                <div class="service-card">
+                    <a href="services.html#service_1">
+                        <img src="Images/web.jpg" alt="Web Development">
+                    </a>
+                    <h3>Web Development</h3>
+                    <p style="font-size: 1.1em;">Création de sites web modernes et responsives.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_2">
+                        <img src="Images/mobile.jpg" alt="Mobile App Development">
+                    </a>
+                    <h3>Mobile App Development</h3>
+                    <p style="font-size: 1.1em;">Applications mobiles performantes pour iOS et Android.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_3">
+                        <img src="Images/software.jpg" alt="Software Development">
+                    </a>
+                    <h3>Software Development</h3>
+                    <p style="font-size: 1.1em;">Logiciels sur mesure adaptés à vos besoins.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_4">
+                        <img src="Images/cybersecurite.jpg" alt="Cybersecurity">
+                    </a>
+                    <h3>Cybersécurité</h3>
+                    <p style="font-size: 1.1em;">Protection complète de vos données et systèmes.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_5">
+                        <img src="Images/reseau.jpg" alt="Cybersecurity">
+                    </a>
+                    <h3>Réseau Informatique</h3>
+                    <p style="font-size: 1.1em;">Réseau local, réseau mobile, réseau Wi-Fi, etc.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_6">
+                        <img src="Images/maintenance.jpg" alt="IT Maintenance">
+                    </a>    
+                    <h3>Maintenance Informatique</h3>
+                    <p style="font-size: 1.1em;">Support technique et entretien de vos infrastructures.</p>
+                </div>
+                <div class="service-card">
+                    <a href="services.html#service_7">
+                        <img src="Images/consultation.jpg" alt="Consulting">
+                    </a>
+                    <h3>Conseil & Formation</h3>
+                    <p style="font-size: 1.1em;">Accompagnement stratégique et formation IT.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="primary">
+            <h1>Blog</h1>
+            <p style="font-size: 1.1em;">
+                Découvrez les dernières actualités et tendances technologiques grâce à notre blog. 
+                Nous partageons régulièrement des articles informatifs et engageants sur des sujets variés tels que :
+            </p>
+            <div class="service-cards" style="margin-top: 50px; gap: 100px;">
+                <div class="service-card">
+                    <a href="cybersecurity.html">
+                        <img src="Images/cybersecurite.jpg" alt="Cybersécurité" class="news-image">
+                    </a>
+                    <h3>Cybersécurité pour les entreprises</h3>
+                    <p style="font-size: 1.1em;">Les meilleures pratiques pour protéger vos données et vos systèmes.</p>
+                </div>
+                <div class="service-card">
+                    <a href="technology-trends.html"></a>
+                        <img src="Images/logiciel.jpg" alt="Innovations logicielles" class="news-image">
+                    </a>
+                    <h3>Innovations logicielles </h3>
+                    <p style="font-size: 1.1em;">Découvrez les dernières avancées dans le développement logiciel.</p> 
+                </div>
+                <div class="service-card">
+                    <a href="blog.html#blog-3">
+                        <img src="Images/tech.jpg" alt="Solutions technologiques" class="news-image">
+                    </a>
+                    <h3>Solutions technologiques</h3>
+                    <p style="font-size: 1.1em;">Des outils pour aider les entreprises à rester compétitives.</p>
+                </div>
+                <div class="service-card">
+                    <a href="blog.html#blog-4">
+                        <img src="Images/optimisation.jpg" alt="Optimisation des systèmes" class="news-image">
+                    </a>
+                    <h3>Optimisation des systèmes</h3>
+                    <p style="font-size: 1.1em;">Astuces pour améliorer l'efficacité de vos infrastructures informatiques.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a href="blog.html" class="cta-button">Lire nos articles</a>
+        </section>
+
+        <section id="avis-list" class="secondary"> 
+            <h1>Ce que disent nos clients</h1>
+            <ul id="avisUl"></ul>
+        
+            <!-- Formulaire pour ajouter un avis -->
+            <form id="avisForm">
+                <h2>Laissez un avis</h2>
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Votre avis :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="primary">
+            <h1>Contactez-nous</h1>
+            <p style="font-size: 1.1em;">Besoin d'une assistance technique ou envie d'en savoir plus sur nos services ? Notre équipe est à votre disposition pour répondre à vos questions et vous proposer des solutions adaptées à vos besoins.</p>
+            <p style="font-size: 1.1em;">Vous pouvez nous joindre via :</p>
+            <ul>
+                <li><strong>Adresse :</strong> 164 Rue Principale, Saint-Louis-de-Gonzague, Québec, Canada</li>
+                <li><strong>Email :</strong> solutionsinfos2023@gmail.com</li>
+                <li><strong>Téléphone :</strong> +1 (514)-208-3644</li>
+            </ul>
+            <br>
+            <a href="contact.html" class="cta-button">Nous écrire</a>
+        </section>
+
+        <script src="script/script.js"></script>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <!-- Section de navigation rapide -->
+                <div class="footer-navigation">
+                    <h4>Navigation rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Section des informations de contact -->
+                <div class="footer-contact">
+                    <h4>Contactez-nous</h4>
+                    <p>Adresse : 164 Rue Principale, Saint-Louis-de-Gonzague, Québec, Canada</p>
+                    <p>Téléphone : +1 514-208-3644</p>
+                    <p>Email : <a href="mailto:solutionsinfos2023@gmail.com">solutionsinfos2023@gmail.com</a></p>
+                </div>
+        
+                <!-- Section d'abonnement à la newsletter -->
+                <div class="footer-subscribe">
+                    <h4>Abonnez-vous à notre newsletter</h4>
+                    <p>Recevez les dernières actualités et tendances directement dans votre boîte mail.</p>
+                    <form id="newsletterForm" action="/subscribe-newsletter" method="POST" class="subscribe-form">
+                        <input type="email" name="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                </div>
+        
+                <!-- Section des réseaux sociaux -->
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#1877F2;"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                        </a></li>
+                        <li><a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#1DA1F2;"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461 c-2.282,0-4.402-0.661-6.186-1.809c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721 c-1.771-0.037-3.255-1.197-3.767-2.793c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137 c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787 c0-0.748,0.199-1.434,0.548-2.032c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923 c0-2.22,1.796-4.028,4.028-4.028c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973 c-0.299,0.935-0.936,1.721-1.771,2.22c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                        </a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#0077B5;"><path d="M20.452 20.452h-3.856v-5.857c0-1.396-.028-3.193-1.946-3.193-1.947 0-2.246 1.52-2.246 3.09v5.96H8.497V9.083h3.7v1.549h.053c.515-.975 1.774-2.002 3.651-2.002 3.899 0 4.617 2.564 4.617 5.897v6.925zM5.337 7.433c-1.243 0-2.252-1.008-2.252-2.252 0-1.244 1.009-2.252 2.252-2.252 1.243 0 2.252 1.008 2.252 2.252 0 1.244-1.008 2.252-2.252 2.252zM7.117 20.452H3.557V9.083h3.56v11.369zM22.225 0H1.771C.79 0 0 .785 0 1.75v20.501C0 23.216.79 24 1.771 24h20.452c.98 0 1.772-.785 1.772-1.749V1.75C24 .785 23.207 0 22.225 0z"></path></svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2024 Infotech Solutions. Tous droits réservés.</p>
+            </div>
+        </footer>
+    </body>
+</html>
